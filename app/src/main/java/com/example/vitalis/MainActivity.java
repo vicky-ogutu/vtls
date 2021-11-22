@@ -52,13 +52,13 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
 
 
                 if (position==0){
-                    editfee.setHint("Pay Ksh 7,000");
+                    editfee.setText("Pay Ksh 7,000");
 
                 }else if (position==1){
-                    editfee.setHint("Pay Ksh 15,000");
+                    editfee.setText("Pay Ksh 15,000");
 
                 }else if(position==2){
-                    editfee.setHint("Pay Ksh 20,000");
+                    editfee.setText("Pay Ksh 20,000");
                 }
 
             }
